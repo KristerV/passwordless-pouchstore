@@ -16,10 +16,10 @@
     "mocha": "^1.21.5",
     "passwordless-tokenstore-test": "^0.1.0"
   },
-  "author": "Dale Harvey <dale@arandomurl.com> (http://twitter.com/daleharvey",
+  "author": "Krister Viirsaar <npm@krister.ee>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/daleharvey/passwordless-pouchstore.git"
+    "url": "https://github.com/KristerV/passwordless-pouchstore-bcryptjs"
   }
 }
