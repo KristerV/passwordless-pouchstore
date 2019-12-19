@@ -1,16 +1,15 @@
 {
-  "name": "passwordless-pouchstore",
-  "version": "0.0.1",
-  "description": "PouchDB TokenStore for Passwordless",
+  "name": "passwordless-pouchstore-bcryptjs",
+  "version": "0.0.2",
+  "description": "PouchDB TokenStore for Passwordless with BcryptJS",
   "main": "index.js",
   "scripts": {
     "test": "mocha --bail tests/*_test.js"
   },
   "dependencies": {
     "passwordless-tokenstore": "0.0.10",
-    "bcrypt": "^0.8.0",
+    "bcryptjs": "^2.4.3",
     "pouchdb": "^3.0.6"
-
   },
   "devDependencies": {
     "chai": "^1.9.2",
