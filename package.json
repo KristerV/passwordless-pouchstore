@@ -1,6 +1,6 @@
 {
   "name": "passwordless-pouchstore-bcryptjs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "PouchDB TokenStore for Passwordless with BcryptJS",
   "main": "index.js",
   "scripts": {

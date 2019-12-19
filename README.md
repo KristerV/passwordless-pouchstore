@@ -2,13 +2,13 @@
 
 This module provides token storage for [Passwordless](https://github.com/florianheinemann/passwordless), a node.js module for express that allows website authentication without password using verification through email or other means. Visit the project's website https://passwordless.net for more details.
 
-Tokens are stored in a PouchDB (or CouchDB) database and are hashed and salted using [bcrypt](https://github.com/ncb000gt/node.bcrypt.js/).
+Tokens are stored in a PouchDB (or CouchDB) database and are hashed and salted using [bcrypt.js](https://www.npmjs.com/package/bcryptjs).
 
 ## Usage
 
 First, install the module:
 
-`$ npm install passwordless-pouchstore --save`
+`$ npm install passwordless-pouchstore-bcryptjs --save`
 
 Afterwards, follow the guide for [Passwordless](https://github.com/florianheinemann/passwordless). A typical implementation may look like this:
 
@@ -52,4 +52,6 @@ As the tokens are equivalent to passwords (even though they do have the security
 [MIT License](http://opensource.org/licenses/MIT)
 
 ## Author
-Dale Harvey [@daleharvey](http://twitter.com/daleharvey/)
+- Dale Harvey [@daleharvey](http://twitter.com/daleharvey/)
+- Krister Viirsaar [web](krister.ee)
+
