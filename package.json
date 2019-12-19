@@ -9,7 +9,7 @@
   "dependencies": {
     "passwordless-tokenstore": "0.0.10",
     "bcryptjs": "^2.4.3",
-    "pouchdb": "^3.0.6"
+    "pouchdb": "^7.1.1"
   },
   "devDependencies": {
     "chai": "^1.9.2",
